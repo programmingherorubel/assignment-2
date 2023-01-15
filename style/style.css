@@ -48,10 +48,14 @@ nav ul{
     gap: 10px;
 }
 nav ul li{
+    margin: 0 10px;
     list-style: none;
     font-size: 18px;
     font-weight: 600;
     transition: 0.3s ease-in;
+}
+nav ul li:first-child{
+    margin-left: 0px;
 }
 nav ul li:hover{
     color:var(--yelowColor)
