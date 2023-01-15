@@ -3,7 +3,6 @@
     /* header  */
     nav{
         grid-template-columns: auto;
-        text-align: center;
     }
     nav ul li{
         list-style: none;
