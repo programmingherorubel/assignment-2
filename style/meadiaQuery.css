@@ -1,0 +1,121 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* header  */
+    nav{
+        grid-template-columns: auto;
+    }
+    nav ul li{
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    /* header  */
+    /* banner  */
+    .bannerHeadline{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .banner p{
+        font-size: 16px;
+    }
+    /* banner  */
+    /* img Gallary  */
+    .imgGlryContainer{
+        display: grid;
+        grid-template-columns: auto ;
+        justify-content: center;
+    }
+    .mainContainerImg{
+        display: grid;
+        align-items: center;
+        grid-template-columns: auto;
+    }
+    .contentH1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    /* img Gallary  */
+    .SponsporsContainer{
+        justify-content: center;
+    }
+    /* love & enjoy  */
+    .loveHeadline{
+       font-size: 30px;
+        font-weight: 700;
+    }
+    .loveenjoyContainer{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+    }
+    /* love & enjoy  */
+    /* Fact  */
+    .FactHeadline{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    /* Fact  */
+    /* contact us  */
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    /* contact us  */
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .bannerHeadline{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    /* banner  */
+    .mainContainerImg{
+        display: grid;
+        align-items: center;
+        grid-template-columns: auto ;
+    }
+    /* img Gallery  */
+
+    /* love & enjoy  */
+    .loveenjoyContainer{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+    }
+    /* love & enjoy  */
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* img Gallery  */
+    .mainContainerImg{
+        display: grid;
+        align-items: center;
+        grid-template-columns: auto ;
+    }
+    /* img Gallery  */
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra extra  large devices (larges desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}
